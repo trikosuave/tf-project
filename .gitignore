@@ -1,0 +1,10 @@
+.vscode/
+.vscode/**
+
+**/.terraform/*
+
+*.tfstate
+*.tfstate.*
+
+tf-project
+tf-project.pub
