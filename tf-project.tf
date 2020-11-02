@@ -5,7 +5,7 @@ provider "aws" {
 
 resource "aws_key_pair" "tf-project-key" {
   key_name   = var.keyname
-  public_key = file("tf-project.pub")
+  public_key = file("${var.keyname}.pub")
 }
 
 resource "aws_instance" "tf-project-instance" {
