@@ -1,11 +1,13 @@
 variable "region" {
-    type = string
     default = "us-west-2"
 }
 
-variable "s3bucket" {
-    type = string
-    default = "tf-project-s3-bucket-1"
+variable "keyname" {
+    default = "tf-project"
+}
+
+variable "sourceip" {
+    default = "11.222.111.22"
 }
 
 variable "amis" {

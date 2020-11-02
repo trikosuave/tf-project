@@ -1,4 +1,4 @@
 resource "aws_s3_bucket" "tf-project-s3" {
-  bucket = var.s3bucket
+  bucket = "tf-project-s3-bucket-1"
   acl    = "private"
 }
